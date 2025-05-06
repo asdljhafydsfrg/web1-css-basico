@@ -1,0 +1,167 @@
+#header {
+    background-color: rgb(255, 35, 24);
+}
+
+#logomoron {
+    text-align: center;
+    width: 90px;
+    margin: 0;
+}
+
+#h1 {
+    color: black;
+    text-align: center;
+    font-size: xx-large;
+    font-style: inherit;
+    background-color: rgb(167, 1, 1);
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #a4161a;
+    text-transform: uppercase;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 20px;
+    border-radius: 3px;
+    margin: 10px;
+    background: hsla(358, 76%, 36%, 1);
+
+background: radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4161A", endColorstr="#9D1519", GradientType=1 );
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav ul li a:hover {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+
+nav {
+    text-align: center;
+}
+
+
+#formH {
+    text-align: right;
+}
+
+
+#main {
+    background-color: rgb(253, 251, 251)
+}
+#estadioM {
+   border-radius: 20px;
+}
+#moronH {
+    border-radius: 20px;
+}
+#castelar {
+    border-radius: 20px;
+}
+.imgA {
+    display: flex;
+       align-items: center;
+       justify-content: center;
+}
+#a1{
+    color: rgb(0, 0, 0)
+}
+#a1:hover {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.411);
+    display:flex ;
+    align-items: center;
+}
+#a2:hover {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+#a2{
+    color: rgb(0, 0, 0)
+}
+#a3:hover {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.863);
+}
+#a3{
+    color: rgb(0, 0, 0)
+}
+#p1 {
+    background-color: #a4161b38;
+
+}
+#p2 {
+    background-color: #85171b1c;
+}
+#p3 {
+    background-color: #4937380c;
+}
+div h2 {
+
+    border-radius: 20px;
+    background-color: #e45459a4;
+    text-align: center;
+}
+div h3 {
+    border-radius:  20px;
+    background-color: #e45459a4;
+    text-align: center;
+}
+
+#footer {
+    background-color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+
+}
+
+#pF {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+
+}
+
+#logofb {
+    width: 40px;
+}
+
+
+#logoig {
+    width: 40px;
+}
+
+#logott {
+    width: 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+ul li {
+    text-align: center;
+}
