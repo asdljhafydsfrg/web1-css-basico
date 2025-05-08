@@ -1,11 +1,14 @@
-#header {
+/* header*/
+header {
     background-color: rgb(255, 35, 24);
+    margin: 0px;
 }
 
 #logomoron {
-    text-align: center;
     width: 90px;
-    margin: 0;
+    margin: auto;
+    display: block;
+    align-items: center;
 }
 
 #h1 {
@@ -21,23 +24,24 @@ nav ul {
     list-style-type: none;
     background-color: #a4161a;
     text-transform: uppercase;
+    margin: 0px;
 
 }
 
-nav li {
+nav ul li {
     display: inline-block;
     padding: 0 20px;
     border-radius: 3px;
     margin: 10px;
     background: hsla(358, 76%, 36%, 1);
 
-background: radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+    background: radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
 
-background: -moz-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
 
-background: -webkit-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(358, 76%, 36%, 1) 19%, hsla(358, 76%, 35%, 1) 59%, hsla(0, 0%, 73%, 1) 100%);
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#A4161A", endColorstr="#9D1519", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#A4161A", endColorstr="#9D1519", GradientType=1);
 }
 
 nav ul li a {
@@ -59,77 +63,71 @@ nav {
 #formH {
     text-align: right;
 }
+/* header*/
+/*main*/
 
-
-#main {
+main {
     background-color: rgb(253, 251, 251)
 }
+
 #estadioM {
-   border-radius: 20px;
+    border-radius: 20px;
 }
+
 #moronH {
     border-radius: 20px;
 }
+
 #castelar {
     border-radius: 20px;
 }
+
 .imgA {
     display: flex;
-       align-items: center;
-       justify-content: center;
-}
-#a1{
-    color: rgb(0, 0, 0)
-}
-#a1:hover {
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.411);
-    display:flex ;
     align-items: center;
+    justify-content: center;
 }
-#a2:hover {
+
+.as {
+    color: rgb(0, 0, 0)
+}
+
+.as:hover {
     color: azure;
     background-color: rgba(0, 0, 0, 0.411);
+    display: flex;
+    align-items: center;
+
 }
-#a2{
-    color: rgb(0, 0, 0)
-}
-#a3:hover {
-    color: azure;
-    background-color: rgba(0, 0, 0, 0.863);
-}
-#a3{
-    color: rgb(0, 0, 0)
-}
-#p1 {
+
+.parrafos {
     background-color: #a4161b38;
 
 }
-#p2 {
-    background-color: #85171b1c;
-}
-#p3 {
-    background-color: #4937380c;
-}
-div h2 {
 
+div h2 {
+    margin: 0px;
     border-radius: 20px;
     background-color: #e45459a4;
     text-align: center;
 }
+
 div h3 {
-    border-radius:  20px;
+    margin: 0px;
+    border-radius: 20px;
     background-color: #e45459a4;
     text-align: center;
 }
+/*main*/
 
+/*footer*/
 #footer {
     background-color: rgb(54, 54, 54);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 20px;
+    margin: 0px;
 
 }
 
@@ -142,15 +140,18 @@ div h3 {
 
 #logofb {
     width: 40px;
+    border-radius: 10px;
 }
 
 
 #logoig {
     width: 40px;
+    border-radius: 10px;
 }
 
 #logott {
     width: 40px;
+    border-radius: 10px;
 }
 
 ul {
@@ -165,3 +166,8 @@ li {
 ul li {
     text-align: center;
 }
+
+body {
+    margin: 0px;
+}
+/*footer*/
